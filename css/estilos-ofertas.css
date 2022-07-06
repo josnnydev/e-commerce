@@ -52,6 +52,7 @@
   background: none;
   color: rgb(223, 247, 14);
   font-size: 2rem;
+  height: 1.8rem;
   
   
    
@@ -62,6 +63,7 @@
   background: none;
   color: rgb(9, 240, 9);
   font-size: 2rem;
+  height: 1.8rem;
   
    
    
@@ -72,12 +74,13 @@
   background: none;
   color: rgb(223, 247, 14);
   font-size: 2rem;
-  
+  height: 1.8rem;
 }
 
 .precio__actual2 {
   background: none;
   color: rgb(3, 248, 3);
    font-size: 2rem;
+   height: 1.8rem;
    
 }

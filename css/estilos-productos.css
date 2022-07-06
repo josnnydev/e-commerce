@@ -114,6 +114,29 @@
 
  }
 
+ #btn-trash{
+  background: rgba(0, 0, 0, .1);
+  color: white;
+  border: none;
+  cursor: pointer;
+ }
+ 
+ #btn-trash:hover{
+  background: white;
+  color: black;
+ }
+
+ #btn-edit{
+  background: rgba(0, 0, 0, .1);
+  color: white;
+  border: none;
+  cursor: pointer;
+ }
+ 
+ #btn-edit:hover{
+  background: white;
+  color: black;
+ }
  
 
 

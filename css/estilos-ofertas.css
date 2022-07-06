@@ -7,12 +7,13 @@
   grid-template-rows: 20% 20% 20% 20% 20%;
   margin: 0 2rem;
    
+   
   
 }
 
 .ofertas__title {
   grid-column: 2/4;
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: bolder;
   text-shadow: 2px 6px 5px red;
   cursor: pointer;
@@ -27,44 +28,56 @@
   background: url(../asset/tshirt.png) center/cover no-repeat;
   grid-column: 2/4;
   grid-row: 2/4;
-  margin: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+   
+  
+  
+  
 }
 
 .img__oferta2 {
   background: url(../asset/tshirt-oferta.png) center/cover no-repeat;
   grid-column: 2/4;
   grid-row: 4/6;
-  margin: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
 }
 
 .precio__oferta1 {
   text-decoration: line-through;
   background: none;
   color: rgb(223, 247, 14);
-  font-size: 3.3rem;
-  text-align: left;
+  font-size: 2rem;
+  
+  
+   
+   
 }
 
 .precio__actual1 {
   background: none;
-  color: rgb(3, 248, 3);
-  text-align: center;
-  top: 1rem;
-  font-size: 5rem;
+  color: rgb(9, 240, 9);
+  font-size: 2rem;
+  
+   
+   
 }
 
 .precio__oferta2 {
   text-decoration: line-through;
   background: none;
   color: rgb(223, 247, 14);
-  font-size: 3.3rem;
-  text-align: left;
+  font-size: 2rem;
+  
 }
 
 .precio__actual2 {
   background: none;
   color: rgb(3, 248, 3);
-  text-align: center;
-  top: 1rem;
-  font-size: 5rem;
+   font-size: 2rem;
+   
 }

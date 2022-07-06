@@ -95,12 +95,23 @@
  }
 
  div p{
-   color: rgb(16, 117, 248);
+  background: white;
+    font-weight: bold;
     position: relative;
     font-size: 1.3rem;
-    top: 9rem;
-    background: rgba(243,8,39, 0.5 );
+    top: 5rem;
+    
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
    
+ }
+
+ div p:hover{
+  color: rgb(14, 63, 128);
+  background: rgba(243,8,39, 0.5 );
+ 
+
  }
 
  

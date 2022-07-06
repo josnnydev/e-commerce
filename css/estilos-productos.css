@@ -1,0 +1,120 @@
+.menu {
+  display: none; /*cambiar a flex*/
+  justify-content: flex-end;
+  align-items: center;
+    
+}
+
+.title{
+   display: none; /*cambiar a block*/
+   position: absolute;
+   left: 33rem;
+   font-size: 3rem;
+   font-weight: bold;
+   text-shadow: 0  9px 5px grey;
+    
+
+}
+
+.img-marca {
+   display: none; /*cambiar a block*/
+  width: 3.8rem;
+}
+
+.productos {
+  width: calc(100vh - 50px);
+  height: calc(100vh - 50px);
+  display: none; /*cambiar a grid*/
+  background: black;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+}
+
+.tshirt {
+  background: url(/asset/kisspng-t-shirt-crop-top-clothing-fashion-crop-tops-5b229cdeec4044.2973713815289950389677.png)
+    center/cover no-repeat;
+  grid-column: 1/2;
+  grid-row: 1/3;
+    
+}
+
+.tshirt-2 {
+  background: url(/asset/kisspng-t-shirt-polo-shirt-clothing-top-polo-shirt-5ac87c4db641c8.6354915115230884617465.png)
+    center/cover no-repeat;
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+
+.tshirt-3 {
+   background: url(/asset/kisspng-t-shirt-polo-shirt-sleeve-red-t-shirt-5a71995cb2c228.4752560115173942687322.png)
+     center/cover no-repeat;
+   grid-column: 5/6;
+   grid-row: 1/3;
+ }
+
+ .tshirt-4 {
+   background: url(/asset/kisspng-t-shirt-top-sleeve-clothing-black-t-shirt-5a719ab8d9ad68.6256009715173946168916.png)
+     center/cover no-repeat;
+   grid-column: 1/2;
+   grid-row: 3/5;
+ }
+
+ .tshirt-5 {
+   background: url(/asset/kisspng-vinyl-t-shirt-top-clothing-5c8c90588e0667.4210991015527158645817.png )
+     center/cover no-repeat;
+   grid-column: 3/4;
+   grid-row: 3/5;
+ }
+
+ .tshirt-6 {
+   background: url(/asset/Lovepik_com-400468724-mens-home-jacket.png   )
+     center/cover no-repeat;
+   grid-column: 5/6;
+   grid-row: 3/5;
+ }
+
+ .tshirt-7 {
+   background: url(/asset/kisspng-t-shirt-sweatshirt-clothing-pete-cl-crew-neck-t-sh-5c893214503018.6244008515524951243285.png)
+     center/cover no-repeat;
+   grid-column: 1/2;
+   grid-row: 5/7;
+ }
+
+ .tshirt-8 {
+   background: url(/asset/sudadera.png )
+     center/cover no-repeat;
+   grid-column: 3/4;
+   grid-row: 5/7;
+ }
+
+ .tshirt-9 {
+   background: url(/asset/sudadera\ woman.png )
+     center/cover no-repeat;
+   grid-column: 5/6;
+   grid-row: 5/7;
+ }
+
+ div p{
+   color: rgb(16, 117, 248);
+    position: relative;
+    font-size: 1.3rem;
+    top: 9rem;
+    background: rgba(243,8,39, 0.5 );
+   
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 

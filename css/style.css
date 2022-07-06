@@ -1,11 +1,14 @@
 body {
   font-family: "Open Sans", sans-serif;
+  
 }
 
 .cabecera {
   text-align: center;
-  padding: 3rem 0;
+  
 }
+
+ 
 
 main {
   background: linear-gradient(black, 30%, blue);

@@ -1,3 +1,3 @@
 window.onload = ()=>{
-   document.querySelector(".loader").style.display = "none" ;
+   document.querySelector(".loader").style.display = "non" ;
 }

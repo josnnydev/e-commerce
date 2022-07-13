@@ -43,8 +43,8 @@
 .loader div:nth-child(2) {
   position: absolute;
   border: 20px solid transparent;
-  border-bottom-color: red;
-  border-right-color: red;
+  border-bottom-color: blue;
+  border-right-color: blue;
   height: 8em;
   width: 8rem;
   border-radius: 50%;
@@ -54,8 +54,8 @@
 .loader div:nth-child(3) {
   position: absolute;
   border: 20px solid transparent;
-  border-top-color: red;
-  border-left-color: red;
+  border-top-color: green;
+  border-left-color: green;
   height: 4rem;
   width: 4rem;
   border-radius: 50%;

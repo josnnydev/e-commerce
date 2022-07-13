@@ -1,0 +1,63 @@
+@keyframes spin1 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.loader {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  height: 100vh;
+  width: 100%;
+  z-index: 9999;
+}
+
+.loader div:nth-child(1) {
+  position: absolute;
+  border: 20px solid transparent;
+  border-top-color: red;
+  border-left-color: red;
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  animation: spin1 3s linear infinite;
+}
+
+.loader div:nth-child(2) {
+  position: absolute;
+  border: 20px solid transparent;
+  border-bottom-color: red;
+  border-right-color: red;
+  height: 8em;
+  width: 8rem;
+  border-radius: 50%;
+  animation: spin2 2s linear infinite;
+}
+
+.loader div:nth-child(3) {
+  position: absolute;
+  border: 20px solid transparent;
+  border-top-color: red;
+  border-left-color: red;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  animation: spin1 1s linear infinite;
+}
